@@ -1,0 +1,34 @@
+html {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+/* .header-text { */
+    /* justify-self: center */
+/* } */
+
+.header-img__fish {
+    height: 100px;
+    align-self: flex-end;
+    /* display: none; */
+}
+
+.header-img__man {
+    align-self:flex-end;
+    height: 80%;
+    /* filter: sepia(10); */
+    /* filter: saturate(20); */
+    filter: hue-rotate(20);
+    /* display: none; */
+    transform: scaleX(-1);
+    /* -webkit-transform: scaleX(-1); */
+    /* flex-shrink: 0; */
+}
