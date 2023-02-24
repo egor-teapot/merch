@@ -6,43 +6,67 @@
 <body>
 
 <header>
-    <img src="assets/man-pulls-fish-rod.png" class="header-img header-img__man animated-from-left-slide" alt="с передней стороны, мужчина тянет удочку на себя">
+    <img src="assets/hunter-1.png" class="header-img__man animated-from-left-slide">
+    <img src="assets/forest-2.jpeg" class="header-img header-img__background">
     <div class="header-text">
         <h1>Смерч</h1>
         <p>Все для охоты и рыбалки</p>
     </div>
-    <img src="assets/fish.png" class="header-img header-img__fish animated-from-right-slide" alt="рыба болтается на леске в воздухе">
 </header>
 <nav>
     <div class="logo">
         <p>Смерч</p>
     </div>
-    <ul>
-        <li><a href="#">Для рыбалки</a></li>
-        <li><a href="#">Для охоты</a></li>
-        <li><a href="#">Вниз</a></li>
+    <ul class="nav-links">
+        <li><a class="nav-links-item" href="#">Для рыбалки</a></li>
+        <li><a class="nav-links-item" href="#">Для охоты</a></li>
+        <li><a class="nav-links-item" href="#">Готовые комплекты</a></li>
+        <li><a class="nav-links-item" href="#">Вниз</a></li>
     </ul>
 </nav>
 <main>
-    <section class="product-carousel fishing">
-    </section>
-
-    <!-- <section class="product-hover hunting">
-        <img src="assets/weapon-1.png">
-        <img src="assets/weapon-2`.png">
-        <img src="assets/weapon-3.png">
+    <!-- <section class="product-carousel fishing">
     </section> -->
 
-    <section class="product-hover">
-        <img src="assets/hunter-1.png">
-        <img src="assets/hunter-2.png">
-        <img src="assets/fisher-man-1.png">
+    <section class="carousel">
+        <div class="carousel-wrapper">
+            <div class="carousel-item">
+                <img src="assets/weapon-1.png">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/weapon-2.png">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/weapon-3.png">
+            </div>
+        </div>
+        <div class="carousel-button-wrapper">
+            <button class="carousel-button carousel-button__left"></button>
+            <button class="carousel-button carousel-button__right"></button>
+        </div>
+    </section>
+
+    <section class="product-list-hover">
+        <div class="product-list-item">
+            <img src="assets/hunter-1.png">
+            <div class="product-item-discription">some some sasdfasd asdfasdf asdfasdf asdfasdf asdf</div>
+        </div>
+        <div class="product-list-item">
+            <img src="assets/fisher-man-1.png">
+            <div class="product-item-discription"></div>
+        </div>
+        <div class="product-list-item">
+            <img src="assets/hunter-2.png">
+            <div class="product-item-discription"></div>
+        </div>
 
     </section>
 </main>
+
 <footer>
     <div></div>
 </footer>
-</body>
 
+</body>
+<script src="script.js"></script>
 </html>
